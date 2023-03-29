@@ -2,15 +2,15 @@
 
 ## Annotations
 
-    @EnableCaching  - we need to add our main application class, which let’s spring know that in this application 
-                      caching is enabled.
+    @EnableCaching  - we need to add our main application class, which let’s spring know that in this 
+    		      application caching is enabled.
 
     @CachePut  - annotation updates the data in Redis Cache when the update is applied on the database.
 
     @CacheEvict  - this annotation deletes the data from the cache when the user wants  to delete the data 
                    from the database.
 	
-	@Cacheable annotation is used for retrieving data from the database and storing in Redis Cache.
+    @Cacheable annotation is used for retrieving data from the database and storing in Redis Cache.
 
 
 
